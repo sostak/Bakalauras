@@ -1,0 +1,6 @@
+@Bakalauras_HostAddress = http://localhost:5084
+
+GET {{Bakalauras_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
