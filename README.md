@@ -1,3 +1,55 @@
+# Bakalauras Project
+
+This repository contains both the frontend and backend components of the Bakalauras project.
+
+## Project Structure
+
+- `/frontend` - React frontend application
+- `/backend` - .NET Core backend application
+
+## Getting Started
+
+### Frontend
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+### Backend
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
+2. Restore dependencies:
+   ```bash
+   dotnet restore
+   ```
+3. Run the application:
+   ```bash
+   dotnet run
+   ```
+
+## Features
+- User authentication and authorization
+- Customer management
+- Mechanic management
+- Profile management
+- Dark mode support
+- Responsive design
+
+## Technologies Used
+- Frontend: React, Chakra UI
+- Backend: .NET Core, Entity Framework Core
+- Database: SQL Server
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
